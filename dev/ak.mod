@@ -1,0 +1,7 @@
+﻿name="Aftokratoria"
+path="mod/ak/"
+replace_path="common/ideologies"
+replace_path="history/countries"
+replace_path="history/states"
+remote_file_id="1589006539"
+supported_version="1.5.4"
