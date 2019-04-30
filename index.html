@@ -28,9 +28,22 @@
 								<li><a href="index.html">Home</a></li>
 								<li><a href="programming&design.html">Programming & Game Design</a></li>
                                 <li><a href="gaming&documentation.html">Gaming & Documentation</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-								<li><a href="#">Log In</a></li>
-								<li><a href="#">Sign Up</a></li>
+                                <form>
+                                    <p> DEN PASSWORD :
+                                        <input type="password" name="text1">
+                                        <input type="button" value="Check In" name="Submit" onclick=javascript:validate(text1.value,"123")> <!--TestPass-->
+                                    </p>
+                                </form>
+                                <script language = "javascript">
+                                    function validate(text1,text2,text3,text4) { 
+                                        if (text1==text2 && text3==text4)
+                                            load('den.html');
+                                        else {
+                                            load('index.html');
+                                        }
+                                    }
+                                    function load(url) { location.href=url; }
+                                </script>
 							</ul>
 							<a href="#" class="close">Close</a>
 						</div>
