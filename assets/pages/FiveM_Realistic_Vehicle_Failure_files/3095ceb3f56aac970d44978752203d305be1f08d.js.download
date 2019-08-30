@@ -1,0 +1,5 @@
+(function() {
+  if ('Ember' in window) {
+    Ember.TEMPLATES["components/category-title-link"] = Ember.HTMLBars.template({"id":null,"block":"{\"symbols\":[],\"statements\":[[0,\"\\n\"],[7,\"a\"],[12,\"href\",[25,[\"category\",\"url\"]]],[9],[0,\"\\n\"],[4,\"if\",[[25,[\"category\",\"uploaded_logo\",\"url\"]]],null,{\"statements\":[[0,\"    \"],[7,\"div\"],[9],[1,[29,\"cdn-img\",null,[[\"src\",\"class\"],[[25,[\"category\",\"uploaded_logo\",\"url\"]],\"category-logo\"]]],false],[10],[0,\"\\n\"]],\"parameters\":[]},null],[10],[0,\"\\n\\n\"],[7,\"a\"],[12,\"href\",[25,[\"category\",\"url\"]]],[9],[0,\"\\n\"],[4,\"if\",[[25,[\"category\",\"read_restricted\"]]],null,{\"statements\":[[0,\"    \"],[1,[29,\"fa-icon\",[\"lock\"],null],false],[0,\"\\n\"]],\"parameters\":[]},null],[0,\"\\n  \"],[7,\"span\"],[11,\"class\",\"category-name\"],[9],[1,[25,[\"category\",\"name\"]],false],[10],[0,\"\\n\"],[10],[0,\"\\n\"]],\"hasEval\":false}","meta":{}});
+  }
+})();
