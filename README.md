@@ -3,4 +3,4 @@
 # Description
 
 # Credits
-Noah Gamble - JihadiJackass
+Noah Gamble - JihadiJack
