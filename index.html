@@ -24,7 +24,7 @@
                 <nav id="nav">
                     <ul>
                         <li><a href="index.html" href="index.html" id="top-link"><span class="icon solid fa-home">Home</span></a></li>
-                        <li><a href="#projects" id="projects-link"><span class="icon solid fa-user">Projects</span></a></li>
+                        <li><a href="projects.html" id="projects-link"><span class="icon solid fa-user">Projects</span></a></li>
                         <li><a href="projects.html" id="paradox-interactive-link">Paradox Interactive</a></li>
                         <li><a href="#hearts-of-iron" id="hearts-of-iron-link">Hearts of Iron IV</a></li>
                         <li><a href="#runescape_private_servers" id="runescape-private-servers-link">Runescape Private Servers</a></li>
@@ -48,8 +48,48 @@
         </div>
 
         <!-- Main -->
-        
-        
+
+        <div id="main">
+            <!-- Formable Nations: Reworked -->
+            <section id="formable-nations-reworked">
+                <div class="container">
+                    <header>
+                        <h2>Xirtam 3</h2>
+                        <p>The Development Lair of Noah</p>
+                    </header>
+
+                    <div class="w3-content w3-display-container">
+                        <img class="mySlides" src="images/assets/communism_party.jpg" style="width:100%">
+                        <img class="mySlides" src="images/games/eu4_1.png" style="width:100%">
+                        <img class="mySlides" src="images/mod_logos/cnp_logo.png" style="width:100%">
+                        <img class="mySlides" src="images/custom_achievments/A_Blessed_Nation.jpg" style="width:100%">
+                      
+                        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                      </div>
+                      
+                      <script>
+                          var slideIndex = 1;
+                          showDivs(slideIndex);
+                          
+                          function plusDivs(n) {
+                          showDivs(slideIndex += n);
+                          }
+                          
+                          function showDivs(n) {
+                          var i;
+                          var x = document.getElementsByClassName("mySlides");
+                          if (n > x.length) {slideIndex = 1}
+                          if (n < 1) {slideIndex = x.length}
+                          for (i = 0; i < x.length; i++) {
+                              x[i].style.display = "none";  
+                          }
+                          x[slideIndex-1].style.display = "block";  
+                          }
+                      </script>  
+                    </div>                   
+                </div>
+            </section>
 
         <!-- Footer -->
         <div id="footer">
